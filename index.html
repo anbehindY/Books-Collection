@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books ES6</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="navItems" id="logo" href="#">Awesome Books</a>
+        <a class="navItems active" id="listNav" href="#">List</a>
+        <a class="navItems" id="addNewNav" href="#">Add new</a>
+        <a class="navItems" id="contactNav" href="#">Contact</a>
+      </nav>
+    </header>
+    <p id="dateNtime"></p>
+    <section class="list active">
+      <h1 class="text">All Awesome Books</h1>
+      <div class="collection"></div>
+    </section>
+    <section class="addNew">
+      <div id="myinputs">
+        <h1 class="text">Add a new book</h1>
+        <input type="text" id="title" placeholder="Title" />
+        <br />
+        <input type="text" id="author" placeholder="Author" />
+        <br />
+        <button type="submit" id="addBookBtn">Add</button>
+      </div>
+    </section>
+    <section class="contact">
+      <h1 class="text">Contact information</h1>
+      <p>
+        Do you have any question or you just want to say "Hello"?<br />You can
+        reach out to us!
+      </p>
+      <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>Our phone number: +959952993613</li>
+        <li>Our address: Linpin street, 1B/267,YANGON,MYANMAR</li>
+      </ul>
+    </section>
+    <footer>Copyright</footer>
     <script type="module" src="index.js"></script>
-</body>
+  </body>
 </html>
