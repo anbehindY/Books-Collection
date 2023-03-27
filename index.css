@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 2%;
+  border: 2px solid black;
+  padding: 1% 4%;
+}
+
+.navItems {
+  text-decoration: none;
+  font-weight: 700;
+  color: #262626;
+  font-family:
+    'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+.navItems.active {
+  color: #2626c5;
+}
+
+a#logo {
+  margin-right: auto;
+}
+
+a#addNewNav {
+  padding: 0 2%;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7%;
+}
+
+.list {
+  width: 100%;
+  margin-top: 6%;
+  display: none;
+}
+
+.list.active {
+  display: block;
+}
+
+.text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+
+.collection {
+  width: 100%;
+  border: 2px solid black;
+  height: auto;
+  margin-bottom: 30px;
+  display: none;
+}
+
+.book {
+  width: 100%;
+  height: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1% 2%;
+}
+
+.book.gray {
+  background: rgb(219, 219, 219);
+}
+
+.book-description {
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+
+.removeBookBtn {
+  margin-left: auto;
+  height: 90%;
+  background: none;
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+}
+
+.addNew {
+  display: none;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.addNew.active {
+  display: flex;
+}
+
+#myinputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+#title,
+#author {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+}
+
+#addBookBtn {
+  align-self: flex-end;
+  background: none;
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+  width: 70px;
+  height: 30px;
+}
+
+.contact {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10%;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact.active {
+  display: flex;
+}
+
+#dateNtime {
+  text-align: right;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 1% 4%;
+  font-weight: 700;
+  color: #262626;
+  margin-top: auto;
+}
