@@ -29,7 +29,6 @@
 
 This is the Book Collection application created using _HTML, CSS, JAVASCRIPT & luxon library_.
 
-**[Webpage]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,41 +36,36 @@ This is the Book Collection application created using _HTML, CSS, JAVASCRIPT & l
 - CSS
 - JAVASCRIPT
 
-### Tech Stack <a name="tech-stack"></a>
+  ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-     <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
+  <details>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+       <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+       <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
+    </ul>
+  </details>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+  ### Key Features <a name="key-features"></a>
 
-- **Html structure with Button, Inputs, etc**
-- **Styling css with colors, borders, paddings, margins & sizes, etc**
-- **ES6 modules**
+  - _Html structure with Button, Inputs, etc_
+  - _Styling css with colors, borders, paddings, margins & sizes, etc_
+  - _ES6 modules_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🚀 Live Demo <a name="live-demo">
+  
+  - [live version](https://anbehindy.github.io/Books-Collection/#)
+  
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
